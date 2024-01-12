@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cantina App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Cantina Menüplan</h1>
+
+    <!-- Formular zum Erstellen eines neuen Menüplans -->
+    <form id="menuPlanForm">
+        <label for="weekStartDate">Startdatum der Woche:</label>
+        <input type="date" id="weekStartDate" required>
+        <label for="budget">Budget:</label>
+        <input type="number" id="budget" required>
+        <button type="submit">Menüplan erstellen</button>
+    </form>
+
+    <!-- Anzeige der vorhandenen Menüpläne -->
+    <div id="menuPlans">
+        <!-- Hier werden die Menüpläne angezeigt -->
+    </div>
+
+    <!-- JavaScript einbinden -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
